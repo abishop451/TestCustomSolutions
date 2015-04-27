@@ -42,13 +42,51 @@ Add a dependency for `OrderCloud-ProductZoom` to the Four51.app module in the **
  4. Create a Static Spec Group named **"ProductZoom"** with the following specs:
 
 Tip: make these specs non-visible to the customer
-| Required or Optional| Spec Name |Spec Type| Value | Action|
-| :----------------    |:----------|:--------| :------| :-------|
-| Required            | fadeTm    | Text    |750    |Duration of fade effect (milliseconds)|
-| Required            | tintClr   | Text    |"black" or a hex color code for another color (example: #000000)|Color of non-zoomed area|
-| Required            | tintOpcty | Text    |.025 or a higher number for darker opacity| Opacity of color on non-zoomed area|
-| Optional            | autoCircle| Text    |autoCircle | Turns lens into a circle|
-| Optional            | iZoom     | Text    | iZoom | Activates inter-zoom mode|
+
+<table>
+  <tr>
+    <th>Required/Optional</th>
+    <th>Spec Name</th>
+    <th>Spec Type</th>
+    <th>Value</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td>Required</td>
+    <td>fadeTm</td>
+    <td>Text</td>
+    <td>750</td>
+    <td>Duration of fade effect (milliseconds)</td>
+  </tr>
+  <tr>
+    <td>Required</td>
+    <td>tintClr</td>
+    <td>Text</td>
+    <td>"black" or a hex color code for another color (example: #000000)</td>
+    <td>Color of non-zoomed area</td>
+  </tr>
+  <tr>
+    <td>Required</td>
+    <td>tintOpcty</td>
+    <td>Text</td>
+    <td>.025 or a higher number for darker opacity</td>
+    <td>Opacity of color on non-zoomed area</td>
+  </tr>
+  <tr>
+    <td>Optional</td>
+    <td>autoCircle</td>
+    <td>Text</td>
+    <td>autoCircle</td>
+    <td>Turns lens into a circle</td>
+  </tr>
+  <tr>
+    <td>Optional</td>
+    <td>iZoom</td>
+    <td>Text</td>
+    <td>iZoom</td>
+    <td>Activates inter-zoom mode</td>
+  </tr>
+</table>
 
 ###2. Create a new Product Detail Template within the admin interface
 
