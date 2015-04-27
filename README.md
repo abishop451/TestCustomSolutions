@@ -45,7 +45,7 @@ Tip: make these specs non-visible to the customer
 
 <table>
   <tr>
-    <th>Required/Optional</th>
+    <th>Required or Optional</th>
     <th>Spec Name</th>
     <th>Spec Type</th>
     <th>Value</th>
@@ -114,7 +114,7 @@ with the following:
 Using Product Properties, assign your new/updated Product Detail Template to any products requiring the Product Zoom feature
 
 ***
-##Tips and Tricks 
+##Additional Information
 
  * All ProductZoom products need to have an image loaded for both the Large image and the Thumbnail image. The Large image must be a larger size from the Thumbnail image since it enables the zoom. Please see the Image Recommendations below. 
  * If you would like other style customizations, you can do this with CSS.  The default values are listed below. 
