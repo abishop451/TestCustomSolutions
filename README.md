@@ -12,7 +12,7 @@ Add the **`productZoom.js`** file to your project.
 
 If you are using a repository, add this file to the **`/lib/oc`** directory.
 
-If you are using file overrides, create a new file override named **`lib/oc/productZoom.js`** and add this file as the content for that file by following these steps: 
+If you are using file overrides, create a new file override named **`lib/oc/productZoom.js`** and add this file as the content by following these steps: 
 
  1. Edit your 2.0 site
  2. Go to “Code Editor” tab
@@ -145,4 +145,3 @@ Using Product Properties, assign your new/updated Product Detail Template to any
 >**Notes**
 * (1) white space can be added via css and shouldn't be added to the image for consistency. 
 * (2) maintaining a consistent height and width for the thumbnail (i.e. category, product list views) is preferable to avoid additional css considerations. 
-
