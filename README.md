@@ -1,4 +1,3 @@
-# TestCustomSolutions
 #Product Zoom for OrderCloud 
 
 This module provides the user the ability to create a hover zoom image on a product. 
@@ -13,7 +12,7 @@ Add the **`productZoom.js`** file to your project.
 
 If you are using a repository, add this file to the **`/lib/oc`** directory.
 
-If you are using file overrides, create a new file override named **`lib/oc/productZoom.js`** and add this file as the content for that file by following the steps below: 
+If you are using file overrides, create a new file override named **`lib/oc/productZoom.js`** and add this file as the content for that file by following these steps: 
 
  1. Edit your 2.0 site
  2. Go to “Code Editor” tab
@@ -21,7 +20,7 @@ If you are using file overrides, create a new file override named **`lib/oc/prod
  4. Name this file **`lib/oc/productZoom.js`**
  5. Place raw code from **`productZoom.js`**  in the section below. Save.
 
-Be sure to reference the new/updated JS file in the **`index.html`** file by following these steps: 
+**Important!** Be sure to reference the new/updated JS file in the **`index.html`** file by following these steps: 
 
 1. In Code Editor, locate your index.html file; hit edit. 
 2. Add `<script src="lib/oc/productZoom.js" data-group="resources"></script>` in the section with “lib/oc” files. Save
@@ -30,13 +29,13 @@ Be sure to reference the new/updated JS file in the **`index.html`** file by fol
 ###2. Load the module into the application.
 Add a dependency for `OrderCloud-ProductZoom` to the Four51.app module in the **`js/app.js`** file by following these steps. 
 
- 1. In Code Editor, locate your **`js/app.js`** file, hit edit. 
+ 1. In Code Editor, locate your **`js/app.js`** file; hit edit. 
  2.  Add **‘OrderCloud-ProductZoom’** into the file. Save.
 
 ##Usage
 ###1. Create a Static Spec Group for the products with Product Zoom
 
- 1. Locate product in catalog or create a new product 
+ 1. Locate the product in your catalog or create a new product 
  2. Go to Static Specs
  3. Create a Custom Static spec
  4. Create a Static Spec Group named **"ProductZoom"** with the following specs:
@@ -90,7 +89,7 @@ Tip: make these specs non-visible to the customer
 
 ###2. Create a new Product Detail Template within the admin interface
 
- 1. Navigate to ”Product Detail Template” on the left Navigation in
+ 1. Navigate to ”Product Detail Template” on the left navigation in
     Order Cloud Admin. 
  2. Go to the OrderCloud 2.0 tab
  3. If a custom Product Detail Template is assigned to the product, modify that template
@@ -113,12 +112,14 @@ with the following:
 
 Using Product Properties, assign your new/updated Product Detail Template to any products requiring the Product Zoom feature
 
-***
+
+----------
+
+
 ##Additional Information
 
  * All ProductZoom products need to have an image loaded for both the Large image and the Thumbnail image. The Large image must be a larger size from the Thumbnail image since it enables the zoom. Please see the Image Recommendations below. 
  * If you would like other style customizations, you can do this with CSS.  The default values are listed below. 
- 
 ```css
  .jetzoom-lens {
 	 1. border: none;
@@ -144,5 +145,4 @@ Using Product Properties, assign your new/updated Product Detail Template to any
 >**Notes**
 * (1) white space can be added via css and shouldn't be added to the image for consistency. 
 * (2) maintaining a consistent height and width for the thumbnail (i.e. category, product list views) is preferable to avoid additional css considerations. 
-
 
