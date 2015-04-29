@@ -42,6 +42,7 @@ Add a dependency for `OrderCloud-ProductLightbox` to the Four51.app module in th
  2. Go to Static Specs
  3. Create a Custom Static Spec Group named **LightboxImages** (name must match exactly) with the following specs:
 <table><tr><th>Static Spec Group Name</th><th>Static Spec Name</th><th>Static Spec Type</th><th>Value</th></tr><tr><td>LightboxImages</td><td>1</td><td>File</td><td>Upload 1st preferred image</td></tr><tr><td>LightboxImages</td><td>2</td><td>File</td><td>Upload 2nd preferred image</td></tr></table>
+
  - Name each static spec a number to control the order of the lightbox image gallery thumbnails.
  - If image order is not important to you, name each static spec whatever you wish.
 
