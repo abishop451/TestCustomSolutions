@@ -91,3 +91,7 @@ Examples of naming conventions:
 ###3. Apply Product Detail Template to product(s).
 
 Using Product Properties, assign your new/updated Product Detail Template to any products requiring the Product Lightbox feature
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/abishop451/testcustomsolutions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
