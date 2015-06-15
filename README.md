@@ -93,5 +93,7 @@ Examples of naming conventions:
 Using Product Properties, assign your new/updated Product Detail Template to any products requiring the Product Lightbox feature
 
 
+Testing to see if analytics is working...
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/abishop451/testcustomsolutions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
